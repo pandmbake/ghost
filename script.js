@@ -9,12 +9,13 @@ function change () {
         x.style.visibility = "hidden";
         y.style.visibility = "visible";
         a.style.visibility = "hidden";
+        
     } else {
         Image.src = "24578703202221.png";
         x.style.visibility = "visible";
         y.style.visibility = "hidden";
         a.style.visibility = "visible";
-    
+        
     } 
 }    
 

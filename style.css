@@ -21,8 +21,18 @@ body {
     top: 40%;
     left: 50%;
     opacity: 0.7;
+    visibility: visible;
     -webkit-animation: slide-in-blurred-bottom 10s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 	        animation: slide-in-blurred-bottom 10s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+#crazy {
+        position: absolute;
+        top: 18%;
+        left: 15%;
+        width: 40em;
+        visibility: hidden;
+        cursor: pointer;
 }
 
 #sound {

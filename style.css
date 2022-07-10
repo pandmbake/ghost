@@ -122,9 +122,10 @@ body {
                 color: white;
                 text-align: center;
                 margin-top: 1em;
-                font-size: 3em;
+                font-size: 2em;
                 margin-bottom: -1em;
                 visibility: visible;
+                margin-left: 1.7em;
         }
         
         #text2 {

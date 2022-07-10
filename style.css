@@ -5,6 +5,7 @@
         margin-top: 1em;
         font-size: 3em;
         margin-bottom: -1em;
+        visibility: visible;
 }
 
 #text2 {
@@ -112,5 +113,65 @@ body {
       opacity: 1;
     }
    
+  }
+
+  @media screen and (max-width: 500px) {
+
+        #text1 {
+                font-family: 'Reenie Beanie', cursive;
+                color: white;
+                text-align: center;
+                margin-top: 1em;
+                font-size: 3em;
+                margin-bottom: -1em;
+                visibility: visible;
+        }
+        
+        #text2 {
+                visibility: hidden;
+                font-family: 'Reenie Beanie', cursive;
+                color: white;
+                text-align: center;
+                margin-top: 1em;
+                font-size: 3em;
+                margin-bottom: -1em;
+        }
+        
+        #ghostBackground {
+            width: 50em;
+            height: auto;
+            text-align: center;   
+            margin: 0 auto;
+            display: flex;
+            position: relative;
+        
+        }
+        
+        body {
+            background-color: black;
+        }
+        
+        #slide-in-blurred-bottom {
+            cursor: pointer;
+            width: 125px;
+            height: auto;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            opacity: 0.7;
+            visibility: visible;
+            -webkit-animation: slide-in-blurred-bottom 10s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+                        animation: slide-in-blurred-bottom 10s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+        }
+        
+        #crazy {
+                position: absolute;
+                top: 18%;
+                left: 35%;
+                width: 25em;
+                visibility: hidden;
+                cursor: pointer;
+        }
+
   }
   

@@ -12,8 +12,8 @@ function change () {
     a.style.visibility = "hidden";
     c.pause();
     b.play();
-    d.style.visibilty = "hidden";
-    e.style.visibility = "";
+    d.style.display = "none";
+    e.style.visibility = "visible";
     
 } 
 
@@ -23,8 +23,8 @@ function changeBack() {
     a.style.visibility = "visible";
     c.play();
     b.pause();
-    d.style.visibilty = "";
-    e.style.visibility = "hidden";
+    d.style.display = "";
+    e.style.display = "none";
 } 
     
 

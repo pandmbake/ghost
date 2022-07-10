@@ -4,6 +4,7 @@
         text-align: center;
         margin-top: 1em;
         font-size: 3em;
+        margin-bottom: -1em;
 }
 
 #text2 {
@@ -15,7 +16,6 @@
     height: auto;
     text-align: center;   
     margin: 0 auto;
-    margin-top: 2em;
     display: flex;
     position: relative;
 

@@ -1,9 +1,21 @@
+#text1 {
+        font-family: 'Reenie Beanie', cursive;
+        color: white;
+        text-align: center;
+        margin-top: 1em;
+        font-size: 3em;
+}
+
+#text2 {
+        visibility: hidden;
+}
+
 #ghostBackground {
     width: 75em;
     height: auto;
     text-align: center;   
     margin: 0 auto;
-    margin-top: 5em;
+    margin-top: 2em;
     display: flex;
     position: relative;
 
@@ -15,7 +27,7 @@ body {
 
 #slide-in-blurred-bottom {
     cursor: pointer;
-    width: 150px;
+    width: 200px;
     height: auto;
     position: absolute;
     top: 40%;

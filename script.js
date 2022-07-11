@@ -14,7 +14,7 @@ function change () {
     c.pause();
     b.play();
     d.style.display = "none";
-    e.style.display = "";
+    e.style.display = "block";
     
 } 
 

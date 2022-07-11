@@ -138,21 +138,22 @@ body {
 
 @media screen and (max-width: 380px) {
         #text1 {
-                font-size: 1.8em;
-                display: flex;
-                justify-items: center;
-              
-                
-                }
+                font-size: 1.0em;
+                text-align: center;
+        }
         
         #text2 {
                 font-size: 2em;
                }
                
         #ghostBackground { 
-                margin-top: 5em; 
+                margin-top: 5em;
+                width: 20em;
+        }   
                    
-
+       #slide-in-blurred-bottom {
+        width: 100px;
+        top: 20%;
 
 }
 }

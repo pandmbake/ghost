@@ -15,18 +15,19 @@ function change () {
     b.play();
     d.style.display = "none";
     e.style.display = "block";
-    
+    y.style.width = "300px";
 } 
 
 function changeBack() {
     x.style.display = "";
     y.style.display = "none";
     a.style.display = "";
-    a.style.marginTop = "150px"
+    a.style.marginTop = "100px"
     c.play();
     b.pause();
     d.style.display = "";
     e.style.display = "none";
+    
 } 
     
 

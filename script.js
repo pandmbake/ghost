@@ -7,20 +7,22 @@ var d = document.getElementById("text1");
 var e = document.getElementById("text2");
 
 function change () {
-    x.style.visibility = "hidden";
-    y.style.visibility = "visible";
-    a.style.visibility = "hidden";
+    x.style.display = "none";
+    y.style.display = "block";
+    y.style.margin = "8em auto";
+    a.style.display = "none";
     c.pause();
     b.play();
     d.style.display = "none";
-    e.style.visibility = "visible";
+    e.style.display = "";
     
 } 
 
 function changeBack() {
-    x.style.visibility = "visible";
-    y.style.visibility = "hidden";
-    a.style.visibility = "visible";
+    x.style.display = "";
+    y.style.display = "none";
+    a.style.display = "";
+    a.style.marginTop = "150px"
     c.play();
     b.pause();
     d.style.display = "";

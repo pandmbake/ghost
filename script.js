@@ -22,7 +22,7 @@ function changeBack() {
     x.style.display = "";
     y.style.display = "none";
     a.style.display = "";
-    a.style.marginTop = "100px"
+    a.style.marginTop = "150px"
     c.play();
     b.pause();
     d.style.display = "";
